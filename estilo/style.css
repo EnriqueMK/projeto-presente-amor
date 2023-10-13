@@ -26,7 +26,7 @@
 
 body {
     height: 100vh;
-    background: url(../imagens-index/imagem-de-fundo.png) center center repeat fixed;
+    background: url() center center repeat fixed;
     background-size: cover;
 }
 
