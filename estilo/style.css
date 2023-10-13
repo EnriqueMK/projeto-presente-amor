@@ -1,22 +1,17 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'amor01';
-    src: url(../fontes/Angelia\ Beauty.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'amor02';
     src: url(../fontes/LoveaHegena.otf) format('opentype');
 }
 @font-face {
-    font-family: 'amor03';
+    font-family: 'amor2';
     src: url(../fontes/Valentine\ Cute.ttf) format('truetype');
 }
 
 :root {
     --font-padrao: Arial, Helvetica sans-serif;
     --font-amor1: 'amor01';
-    --font-amor2: 'amor02';
-    --font-amor3: 'amor03';
+    --font-amor2: 'amor2';
 }
 
 * {
@@ -35,7 +30,7 @@ header {
 }
 
 header > h1 {
-    font-family: var(--font-amor3);
+    font-family: var(--font-amor2);
     font-weight: lighter;
     font-size: 1.3em;
     text-align: center;
@@ -47,20 +42,20 @@ header strong {
 }
 
 main > p {
-    font-family: var(--font-amor3);
+    font-family: var(--font-amor2);
     font-size: 1em;
     text-align: center;
     padding: 10px;
 }
-main > div.imagens {
+main > div.cartas {
     text-align: center;
 }
 
-main > div.imagens > a {
+main > div.cartas > a {
     text-decoration: none;
 }
 
-main > div.imagens img {
+main > div.cartas img {
     width: 100px;
     padding: 20px;
 }
@@ -68,7 +63,7 @@ main > div.imagens img {
 main > iframe {
     display: block;
     margin: auto;
-    width: 360px;
+    width: 330px;
     height: 900px;
     border-radius: 15px;
 }
@@ -77,3 +72,13 @@ main iframe p#error {
     font-family: var(--font-padrao);
     font-family: 1.2em;
 }
+
+main div.carta-especial {
+    text-align: center;
+}
+
+main div.carta-especial img {
+    width: 300px;
+}
+
+
