@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'amor01';
+    src: url(../fontes/Angelia\ Beauty.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'amor02';
+    src: url(../fontes/LoveaHegena.otf) format('opentype');
+}
+@font-face {
+    font-family: 'amor03';
+    src: url(../fontes/Valentine\ Cute.ttf) format('truetype');
+}
+
+:root {
+    --font-padrao: Arial, Helvetica sans-serif;
+    --font-amor1: 'amor01';
+    --font-amor2: 'amor02';
+    --font-amor3: 'amor03';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background: url(../imagens-index/imagem-de-fundo.jpg) center center repeat fixed;
+    background-size: cover;
+}
+
+header > h1 {
+    font-family: var(--font-amor3);
+    font-weight: lighter;
+    font-size: 1.3em;
+    text-align: center;
+    height: 250px;
+}
+
+header strong {
+    text-decoration: underline;
+}
+
+main > p {
+    font-family: var(--font-amor3);
+    font-size: 1em;
+    text-align: center;
+}
+
+main > div.imagens {
+    text-align: center;
+}
+
+main > div.imagens > a {
+    text-decoration: none;
+}
+
+main > div.imagens img {
+    width: 100px;
+    padding: 20px;
+}
+
+main > iframe {
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 900px;
+    border-radius: 15px;
+}
+
+main iframe p#error {
+    font-family: var(--font-padrao);
+    font-family: 1.2em;
+}
