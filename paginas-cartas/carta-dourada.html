@@ -6,10 +6,111 @@
     <title>Carta Dourada</title>
     <link rel="shortcut icon" href="../coração.ico" type="image/x-icon">
     <style>
+        @font-face {
+            font-family: 'amor01';
+            src: url(../fontes/Valentine\ Cute.ttf) format('opentype');
+        }
+
+        @font-face {
+            font-family: 'amor02';
+            src: url(../fontes/Angelia\ Beauty.ttf);
+        }
+
+        :root {
+            --cor1: #1E323E9a;
+            --cor2: #E4B29E9a;
+            --font-amor1: amor01;
+            --font-amor2: amor02;
+        }
+
+        body {
+            background-image: linear-gradient(to left, var(--cor2), var(--cor1));
+        }
         
+        div.imagem {
+            text-align: center;
+        }
+
+        div.imagem > img {
+            width: 300px;
+            border: 2px solid var(--cor2);
+            border-radius: 20px;
+        }
+
+        div.video {
+            text-align: center;
+        }
+
+        div.video video {
+            width: 300px;
+            border: 2px solid var(--cor2);
+            border-radius: 20px;
+        }
+        
+        h2 {
+            font-family: var(--font-amor1);
+            color: rgb(36, 36, 36);
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        p {
+            background-color: rgba(0, 0, 0, 0.123);
+            border: 1px solid var(--cor2);
+            color: rgba(0, 0, 0, 0.753);
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.8em;
+            text-indent: 15px;
+            margin: 8px;
+            padding: 10px;
+        }
+
+        h2.font {
+            font-family: var(--font-amor2);
+            font-size: 4em;
+        }
+
+        h2.font strong {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    
+    <h2>
+        Obrigado por Tudo 
+    </h2>
+    <div class="imagem">
+        <img src="imagens-cartas/img-carta-dourada01.jpg" alt="">
+    </div>
+    <p>
+        Obrigado por tudo que você fez e está fazendo por mim, eu sou muito grato de te ter na minha vida, você merece muito mais do que um simples presente desse, você merece o mundo, você é uma garota incrívelmente linda, tem muito o que viver ainda, você vai passar por muita coisa em dobro, e eu sempre vou estar aqui pra ver seu caminho percorrido
+    </p>
+    <div class="video">
+        <video autoplay>
+            <source src="videos-cartas/video-carta-dourada01.mp4" type="">
+        </video>
+    </div>
+    <p>
+        Não a mais palavras para descrever o quão incrível, perfeita e maravilhosa você é, nenhuma palavra consegue definir tamanha perfeição. Eu estou muito feliz por estar com você, e saiba que independete das brigas eu sempre vou continuar ao seu lado lutando para que um dia isso acabe, por mais que seja impossível evitar uma discussão, eu sempre vou estar tentando com que esses desentendimentos não aconteça mais.
+    </p>
+    <div class="imagem">
+        <img src="imagens-cartas/img-carta-dourada02.jpg" alt="">
+    </div>
+    <p>
+        Cada dia que passa eu fico com mais saudades de você, espero que chegue o dia que eu não vá mais te largar nunca, por que estar longe de você é uma enorme falta para mim, eu me sinto muito melhor, meus problemas diminuem muito com você por perto, então todo dia eu penso você para eu me sentir melhor. Só de pensar que você existe já me acalma, todos os dias eu fico pensando quanto tempo falta para te ver de novo e enquanto você continuar longe de mim eu sempre estarei contando os dias para te ver de novo.
+    </p>
+    <div class="video">
+        <video autoplay>
+            <source src="videos-cartas/video-carta-dourada02.mp4" type="">
+        </video>
+    </div>
+    <p>
+        Obrigado mesmo, eu fiz esse site com maior carinho e dedicação possível, demorei muito para fazer ele, cerca de umas 2 horas e meia, espero que goste do "presentinho" que eu preparei pra você
+    </p>    
+    <h2 class="font">
+        Eu te amo <strong>Alexsandra ❤️</strong>
+    </h2>
+
 </body>
 </html>
