@@ -26,7 +26,7 @@
 
 body {
     height: 100vh;
-    background: url() center center repeat fixed;
+    background: url(../imagens-index/imagem-de-fundo.png) center center repeat fixed;
     background-size: cover;
 }
 
@@ -68,7 +68,7 @@ main > div.imagens img {
 main > iframe {
     display: block;
     margin: auto;
-    width: 350px;
+    width: 360px;
     height: 900px;
     border-radius: 15px;
 }
