@@ -24,7 +24,7 @@ html, body {
 }
 
 body {
-    background: url(../) center center repeat fixed;
+    background: url(../imagens-index/imagem-de-fundo.png) center center repeat fixed;
     background-size: cover;
 }
 
