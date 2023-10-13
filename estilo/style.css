@@ -69,7 +69,7 @@ main > div.imagens img {
 main > iframe {
     display: block;
     margin: auto;
-    width: 330px;
+    width: 350px;
     height: 900px;
     border-radius: 15px;
 }
