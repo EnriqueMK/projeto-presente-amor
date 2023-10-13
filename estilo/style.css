@@ -24,14 +24,14 @@ html, body {
 }
 
 body {
-    background: url(../imagens-index/imagem-de-fundo.png) center center repeat fixed;
+    background: url(../) center center repeat fixed;
     background-size: cover;
 }
 
 header > h1 {
     font-family: var(--font-amor2);
     font-weight: lighter;
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     padding: 10px;
 }
@@ -42,7 +42,7 @@ header strong {
 
 main > p {
     font-family: var(--font-amor2);
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
     padding: 10px;
 }
