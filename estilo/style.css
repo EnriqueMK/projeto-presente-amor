@@ -19,8 +19,11 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 body {
-    height: 100vh;
     background: url(../imagens-index/imagem-de-fundo.png) center center repeat fixed;
     background-size: cover;
 }
@@ -32,7 +35,7 @@ header {
 header > h1 {
     font-family: var(--font-amor2);
     font-weight: lighter;
-    font-size: 1.3em;
+    font-size: 4vw;
     text-align: center;
     padding: 10px;
 }
@@ -43,7 +46,7 @@ header strong {
 
 main > p {
     font-family: var(--font-amor2);
-    font-size: 1em;
+    font-size: 3vw;
     text-align: center;
     padding: 10px;
 }
