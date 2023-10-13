@@ -28,10 +28,6 @@ body {
     background-size: cover;
 }
 
-header {
-    height: 290px;
-}
-
 header > h1 {
     font-family: var(--font-amor2);
     font-weight: lighter;
