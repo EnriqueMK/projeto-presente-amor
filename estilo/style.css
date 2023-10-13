@@ -4,14 +4,14 @@
     src: url(../fontes/LoveaHegena.otf) format('opentype');
 }
 @font-face {
-    font-family: 'amor2';
+    font-family: 'amor02';
     src: url(../fontes/Valentine\ Cute.ttf) format('truetype');
 }
 
 :root {
     --font-padrao: Arial, Helvetica sans-serif;
     --font-amor1: 'amor01';
-    --font-amor2: 'amor2';
+    --font-amor2: 'amor02';
 }
 
 * {
